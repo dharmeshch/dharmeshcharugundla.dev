@@ -1,0 +1,43 @@
+export const experience = [
+  {
+    title: "Software Engineer",
+    company: "Meta",
+    location: "New York, NY",
+    dates: "March 2024 – Present",
+    summary: "Part of the Experimentation Platform team that runs the largest A/B tests on the planet. Product teams across Meta's family of apps rely on our platform (Deltoid) to measure feature launches through metric movements. Led the unification of two experiment scheduling systems in my first year, and currently integrating clustered experimentation methodology for the ads ecosystem.",
+    tech: ["Python", "Hive", "Spark", "Presto", "Airflow"],
+    experimentation: ["CUPED", "Clustered Experimentation", "Delta Method", "Ratio Metrics", "Conditional & Unconditional Metrics", "Holdout Groups", "AI-Assisted Development"],
+  },
+  {
+    title: "Senior Software Engineer",
+    company: "Bloomberg",
+    location: "New York, NY",
+    dates: "July 2020 – February 2024",
+    summary: "Part of the Compliance Engineering team responsible for surveilling real-time communications on the Bloomberg terminal, while also ingesting chat applications via offline batch pipelines for archiving and deferred compliance checks. Rewrote the offline ingestion module from C++ to a Java Kafka consumer, led the 0→1 build of Bloomberg's first voice surveillance product, and was part of a team that migrated critical real-time compliance pipelines from Storm to Flink.",
+    tech: ["Java", "C++", "Kafka", "Flink", "Redis"],
+  },
+  {
+    title: "Software Engineer",
+    company: "Houzz",
+    location: "Palo Alto, CA",
+    dates: "July 2019 – June 2020",
+    summary: "Part of the Emails and Push Notifications team responsible for reaching 4M+ Houzz users. Contributed to migrating from SendGrid to self-hosted mail servers by ramping up and maintaining reputation scores for both transactional and promotional emails. Built a lightweight service to dynamically adjust mail server weights to reduce traffic to servers with high spam/bounce rates, and developed a Kafka consumer that pre-builds emails ahead of campaign kickoff to enable bulk sends with minimal latency.",
+    tech: ["Java", "Python", "Kafka", "AWS", "Redis"],
+  },
+  {
+    title: "Research Assistant & Co-Op",
+    company: "CYR3CON",
+    location: "Tempe, AZ",
+    dates: "September 2017 – May 2019",
+    summary: "CYR3CON is an ASU-founded research startup that crawls the dark web to help clients monitor cyber attack threats from hacker communities. Developed RESTful APIs to expose threat and vulnerability data from MongoDB, set up Elasticsearch to enable fuzzy search across dark web intelligence and built APIs on top of it, and migrated manually provisioned AWS infrastructure to Terraform and CloudFormation scripts.",
+    tech: ["Spring Boot", "AWS", "Terraform", "Elasticsearch", "MongoDB"],
+  },
+  {
+    title: "Software Engineer",
+    company: "Tata Consultancy Services",
+    location: "Bangalore, India",
+    dates: "October 2015 – July 2017",
+    summary: "Worked with multiple clients in assessing cloud compatibility and migrating their on-premise servers to AWS using Terraform.",
+    tech: ["Spring Boot", "AWS", "Terraform", "Jenkins"],
+  },
+];
