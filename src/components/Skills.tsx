@@ -2,7 +2,7 @@
 
 import { skills } from "@/data/skills";
 
-const primary = new Set(["Flink", "Kafka", "Airflow", "Java", "Python", "Hive", "PostgreSQL", "Presto"]);
+const primary = new Set(["Apache Flink", "Apache Kafka", "Airflow", "Java", "Python", "Hive", "PostgreSQL", "Presto"]);
 const mid = new Set(["AWS", "Terraform", "Docker", "Jenkins"]);
 
 const getSize = (skill: string) =>
