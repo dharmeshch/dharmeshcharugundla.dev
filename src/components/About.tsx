@@ -18,7 +18,7 @@ export default function About() {
               correctness.
             </p>
             <p>
-              Outside of engineering, I&apos;m an avid runner and enjoy group fitness classes.
+              Outside of engineering, I&apos;m an avid runner, enjoy group fitness classes, love travelling, and spending quality time with my family.
             </p>
           </div>
           <div className="flex flex-col gap-3">
