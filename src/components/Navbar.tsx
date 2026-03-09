@@ -32,6 +32,11 @@ export default function Navbar() {
               Life in Weeks
             </a>
           </li>
+          <li>
+            <a href="/blog" className="text-zinc-400 hover:text-white text-sm transition-colors">
+              Blog
+            </a>
+          </li>
         </ul>
       </div>
     </nav>
