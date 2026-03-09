@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function About() {
   return (
     <section id="about" className="py-24 px-6">
@@ -22,6 +24,14 @@ export default function About() {
             </p>
           </div>
           <div className="flex flex-col gap-3">
+            <div className="relative w-full aspect-square rounded-lg overflow-hidden border border-zinc-800">
+              <Image
+                src="/profile.jpg"
+                alt="Dharmesh Charugundla"
+                fill
+                className="object-cover object-top"
+              />
+            </div>
             <div className="bg-zinc-900 border border-zinc-800 rounded-lg p-4">
               <p className="font-mono text-cyan-400 text-xs mb-1">Education</p>
               <p className="text-white text-sm font-medium">M.S. Computer Science</p>
