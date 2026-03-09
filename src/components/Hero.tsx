@@ -16,7 +16,7 @@ export default function Hero() {
         <p className="text-zinc-400 text-lg max-w-xl mb-10 leading-relaxed">
           Software Engineer with 8+ years of experience specializing in distributed systems, data pipelines, and large-scale experimentation.
         </p>
-        <div className="flex items-center gap-6">
+        <div className="flex flex-wrap items-center gap-4">
           <a
             href="#experience"
             className="bg-cyan-400 text-black font-semibold px-6 py-3 rounded hover:bg-cyan-300 transition-colors font-mono text-sm"

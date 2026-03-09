@@ -6,8 +6,8 @@ export default function About() {
       <div className="max-w-4xl mx-auto">
         <h2 className="font-mono text-cyan-400 text-sm mb-2">01. About</h2>
         <h3 className="text-3xl font-bold text-white mb-8">About Me</h3>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-          <div className="md:col-span-2 flex flex-col gap-4 text-zinc-400 leading-relaxed">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="md:col-span-2 flex flex-col gap-4 text-zinc-400 leading-relaxed order-2 md:order-1">
             <p>
               I&apos;m drawn to problems where scale changes everything — where the naive solution
               breaks and you have to think differently. I find experimentation particularly
@@ -23,8 +23,8 @@ export default function About() {
               Outside of engineering, I&apos;m an avid runner, enjoy group fitness classes, love travelling, and spending quality time with my family.
             </p>
           </div>
-          <div className="flex flex-col gap-3">
-            <div className="relative w-full aspect-square rounded-lg overflow-hidden border border-zinc-800">
+          <div className="flex flex-col gap-3 order-1 md:order-2">
+            <div className="relative w-48 md:w-full aspect-square mx-auto rounded-lg overflow-hidden border border-zinc-800">
               <Image
                 src="/profile.jpg"
                 alt="Dharmesh Charugundla"
